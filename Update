@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Extra Hand Nebraska</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Nunito', sans-serif; }
+    .section-bg { background-color: #FFF8F0; }
+    .primary-color { color: #7FB3D5; }
+    .card { background-color: #FFFFFF; border-radius: 16px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); padding: 24px; }
+    .btn { background-color: #A3D9A5; color: #1F2937; padding: 12px 24px; border-radius: 12px; font-weight: 600; transition: 0.2s; }
+    .btn:hover { background-color: #7FB3D5; color: #FFFFFF; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+<!-- Hero Section -->
+<header class="text-center py-20 px-6 bg-gradient-to-r from-blue-100 via-blue-50 to-blue-100">
+  <h1 class="text-5xl font-bold mb-4 primary-color">Extra Hand Nebraska</h1>
+  <p class="text-xl text-gray-700 mb-6">Friendly, reliable help for home projects, deliveries, and business tasks — right here in Nebraska.</p>
+  <a href="https://calendly.com/joejoethekokomo" class="btn">Book an Extra Hand</a>
+</header>
+
+<!-- Why Choose Us -->
+<section class="max-w-6xl mx-auto py-16 px-6 grid md:grid-cols-4 gap-6 text-center">
+  <div class="card">
+    <h3 class="text-xl font-semibold mb-2">Reliable & Friendly</h3>
+    <p class="text-gray-600">We show up on time and ready to help, every time.</p>
+  </div>
+  <div class="card">
+    <h3 class="text-xl font-semibold mb-2">Transparent Pricing</h3>
+    <p class="text-gray-600">Flat $60/hr — no surprises, ever.</p>
+  </div>
+  <div class="card">
+    <h3 class="text-xl font-semibold mb-2">Local Nebraska Support</h3>
+    <p class="text-gray-600">Helping our community grow and succeed.</p>
+  </div>
+  <div class="card">
+    <h3 class="text-xl font-semibold mb-2">Flexible & Skilled</h3>
+    <p class="text-gray-600">From home projects to business tasks, we’ve got you covered.</p>
+  </div>
+</section>
+
+<!-- Services -->
+<section class="section-bg py-16 px-6">
+  <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-6 text-center">
+    <div class="card">
+      <h3 class="text-xl font-semibold mb-2">🏠 Home & Moving Help</h3>
+      <p class="text-gray-600">Furniture moving, garage cleanouts, odd jobs, and general help around your home.</p>
+    </div>
+    <div class="card">
+      <h3 class="text-xl font-semibold mb-2">🏢 Business & Event Support</h3>
+      <p class="text-gray-600">Event setup & teardown, vendor assistance, errands, and temporary support.</p>
+    </div>
+    <div class="card">
+      <h3 class="text-xl font-semibold mb-2">🚚 Special Delivery & Pickups</h3>
+      <p class="text-gray-600">Marketplace pickups, store deliveries, transportation for larger items.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials -->
+<section class="max-w-6xl mx-auto py-16 px-6 text-center">
+  <h2 class="text-3xl font-bold mb-8 primary-color">What Our Customers Say</h2>
+  <div class="grid md:grid-cols-2 gap-6">
+    <div class="card">
+      <p class="text-gray-700 italic">“Extra Hand Nebraska made our move so easy — friendly and efficient!”</p>
+      <p class="mt-2 font-semibold">— Sarah L.</p>
+    </div>
+    <div class="card">
+      <p class="text-gray-700 italic">“Great communication, reliable help, and always smiling.”</p>
+      <p class="mt-2 font-semibold">— Mike R.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Pricing -->
+<section class="section-bg py-16 px-6 text-center">
+  <h2 class="text-3xl font-bold mb-8 primary-color">Pricing</h2>
+  <div class="max-w-4xl mx-auto grid md:grid-cols-3 gap-6">
+    <div class="card">
+      <h3 class="text-xl font-semibold mb-2">Hourly Help</h3>
+      <p class="text-3xl font-bold mb-2">$60/hr</p>
+      <p class="text-gray-600">2-hour minimum · Omaha metro</p>
+    </div>
+    <div class="card">
+      <h3 class="text-xl font-semibold mb-2">Half Day</h3>
+      <p class="text-3xl font-bold mb-2">4 Hours</p>
+      <p class="text-gray-600">Great for moves, events, or multiple stops</p>
+    </div>
+    <div class="card">
+      <h3 class="text-xl font-semibold mb-2">Special Delivery</h3>
+      <p class="text-3xl font-bold mb-2">Quoted</p>
+      <p class="text-gray-600">Based on size, distance, and timing</p>
+    </div>
+  </div>
+</section>
+
+<!-- Booking -->
+<section class="max-w-4xl mx-auto py-16 px-6 text-center">
+  <h2 class="text-3xl font-bold mb-6 primary-color">Book an Extra Hand</h2>
+  <p class="text-gray-600 mb-6">Choose a time, tell us what you need help with, and we’ll take it from there.</p>
+  <div class="card">
+    <div class="calendly-inline-widget"
+      data-url="https://calendly.com/joejoethekokomo"
+      style="min-width:320px;height:700px;"></div>
+    <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center text-gray-500 py-10 section-bg">
+  © 2026 Extra Hand Nebraska · extrahandnebraska.com<br />
+  Serving Omaha & surrounding Nebraska communities
+</footer>
+
+</body>
+</html>
